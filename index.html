@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeniy | Porfolio</title>
+
+    <!----- Import font ---->
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <!----- Import icons ---->
+    <!-- <link rel="stylesheet" href="vendors/css/ionicons.min.css" /> -->
+
+    <!----- Style ---->
+    <link rel="stylesheet" href="stylesheet/style.css" type="text/css">
+
+    <!----- Queries ---->
+    <link rel="stylesheet" href="stylesheet/Queries.css" type="text/css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container">
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <a class="navigation-brand" href="#">
+                        Sprout
+                    </a>
+    
+                    <div class="humburger" onclick="toggler(this)">
+                        <div class="icon-x"></div>
+                        <div class="icon-z"></div>
+                        <div class="icon-y"></div>
+                    </div>
+    
+                    <div class="navigation-menu collaspe-navigations">
+                        <ul>
+                            <li class="nav-item"> <a href="#" class="nav-link" >Home</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link" >About</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link" >Services</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link" >Work</a></li>
+                            <li class="nav-item"> <a href="#" class="nav-link" >Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- End of Navigation -->
+
+                <!-- Herobox -->
+                <div class="herobox">
+                    <div class="herobox-image">
+                        <!-- <img src="imgs/avatar.jpg" alt="avatar" /> -->
+                    </div>
+
+                    <div class="herobox-description">
+                        <h1 class="hero-description-name">
+                            Hi, I'm Adeniyi Emmanuel
+                        </h1>
+
+                        <p class="herobox-description-text" id="printText">
+                        </p>
+                    </div>
+
+                    <div class="herobox-description-btn">
+                        <span></span>
+                    </div>
+                </div>
+                <!-- End of herobox -->
+            </div> 
+        </header>
+
+        <main class="main">
+            <!-- section about -->
+            <section class="section-about">
+                <div class="container">
+                    <div class="about-details">
+                        <div class="about-details-description">
+                            <h3 class="about-details-description-title">
+                                Hi! there i'm adeniyi emmanuel
+                            </h3>
+                            <p class="about-details-description-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Esse sapiente id nesciunt nihil ad natus porro ab quisquam!
+                                Illum veritatis itaque saepe adipisci dicta rerum provident
+                                suscipit quas perferendis doloribus.
+                            </p>
+
+                            <div class="about-details-description-contacts">
+                                <div class="wrapper">
+                                    <p class="about-details-description-contactsTag">Email: 
+                                        <span>Pgt2089@gmail.com</span>
+                                    </p>
+                                    <p class="about-details-description-contactsTag">Phone: 
+                                        <span>09032067404</span>
+                                    </p>
+                                </div>
+                                <div class="wrapper">
+                                    <p class="about-details-description-contactsTag">Location: 
+                                        <span>Gonin-gora, Kaduna</span>
+                                    </p>
+                                    <p class="about-details-description-contactsTag">Date of Birth: 
+                                        <span>199-12-25</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="about-details-description-linkIcons">
+                                <span class="iconify" data-icon="typcn:social-facebook-circular" data-inline="false"></span>
+                                <span class="iconify" data-icon="ri:telegram-line" data-inline="false"></span>
+                                <span class="iconify" data-icon="jam:twitter-circle" data-inline="false"></span>
+                                <!-- <span class="iconify" data-icon="fa-brands:whatsapp-square" data-inline="false"></span>
+                                <span class="iconify" data-icon="whh:circleinstagram" data-inline="false"></span> -->
+                            </div>
+                        </div>
+
+                        <div class="about-details-ranks">
+                            <div class="range-detail">
+                                <p class="range-detail-title">Html &amp; Css</p>
+                                <p class="range-detail-percent">98%</p>
+                            </div>
+                            <div class="range">
+                                <div class="range-percent slide1"></div>
+                            </div>
+
+                            <div class="range-detail">
+                                <p class="range-detail-title">Vue.js &amp; Javascripy</p>
+                                <p class="range-detail-percent">95%</p>
+                            </div>
+                            <div class="range">
+                                <div class="range-percent slide2"></div>
+                            </div>
+
+                            <div class="range-detail">
+                                <p class="range-detail-title">Bootstrap</p>
+                                <p class="range-detail-percent">95%</p>
+                            </div>
+                            <div class="range">
+                                <div class="range-percent slide3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of section about -->
+
+            <!-- section services -->
+            <section class="section-services">
+                <div class="container">
+                    <div class="section-title">my services</div>
+                <div class="services-details">
+                    <div class="wrapper">
+                        <div class="services-details-logo">
+                            <span class="iconify" data-icon="simple-icons:html5" data-inline="false"></span>
+                        </div>
+                        <h3 class="services-details-title">
+                            Web development
+                        </h3> 
+                        <p class="services-details-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Asperiores impedit quia, quis et, cumque maxime praesentium 
+                             sed quas voluptates harum ipsum excepturi dolores neque fugiat 
+                             totam nam suscipit consequatur vero.
+                        </p>
+
+                        <div class="services-details-logo">
+                            <span class="iconify" data-icon="ion:desktop-outline" data-inline="false"></span>
+                        </div>
+                        <h3 class="services-details-title">
+                            Web design
+                        </h3> 
+                        <p class="services-details-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Asperiores impedit quia, quis et, cumque maxime praesentium 
+                             sed quas voluptates harum ipsum excepturi dolores neque fugiat 
+                             totam nam suscipit consequatur vero.
+                        </p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="services-details-logo">
+                            <span class="iconify" data-icon="ri:app-store-fill" data-inline="false"></span>
+                        </div>
+                        <h3 class="services-details-title">
+                            App development
+                        </h3> 
+                        <p class="services-details-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Asperiores impedit quia, quis et, cumque maxime praesentium 
+                             sed quas voluptates harum ipsum excepturi dolores neque fugiat 
+                             totam nam suscipit consequatur vero.
+                        </p>
+
+                        <div class="services-details-logo">
+                            <span class="iconify" data-icon="clarity:phone-handset-solid" data-inline="false"></span>
+                        </div>
+                        <h3 class="services-details-title">
+                            Online support
+                        </h3> 
+                        <p class="services-details-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Asperiores impedit quia, quis et, cumque maxime praesentium 
+                             sed quas voluptates harum ipsum excepturi dolores neque fugiat 
+                             totam nam suscipit consequatur vero.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <!-- End of section services -->
+
+            <!-- section porfolio -->
+            <section class="section-porfolio">
+                <div class="container">
+                    <div class="section-title">my porfolio</div>
+
+                    <div class="porfolio-showcase">
+                        <div class="wrapper">
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio1.jpg" alt="porfolio" />
+                            </div>
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio2.jpg" alt="porfolio" />
+                            </div>
+                        </div>
+
+                        <div class="wrapper">
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio3.jpg" alt="porfolio" />
+                            </div>
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio4.jpg" alt="porfolio" />
+                            </div>
+                        </div>
+
+                        <div class="wrapper">
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio5.jpg" alt="porfolio" />
+                            </div>
+                            <div class="porfolio-showcase-img">
+                                <img src="imgs/porfolio6.jpg" alt="porfolio" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of section porfolio -->
+
+            <!-- section records -->
+            <div class="records">
+                <div class="wrapper">
+                    <span class="iconify" data-icon="gg:smile-mouth-open" data-inline="false"></span>
+                    <p class="records-count">275</p>
+                    <p class="records-title">Happy client</p>
+                </div>
+
+                <div class="wrapper">
+                    <span class="iconify" data-icon="ion:document-attach-outline" data-inline="false"></span>
+                    <p class="records-count">275</p>
+                    <p class="records-title">Completed project</p>
+                </div>
+
+                <div class="wrapper">
+                    <span class="iconify" data-icon="ion:pencil-sharp" data-inline="false"></span>
+                    <p class="records-count">1,567</p>
+                    <p class="records-title">Lines of codes</p>
+                </div>
+            </div>
+            <!-- End of section records -->
+
+            <!-- section contact -->
+            <section class="section-contact">
+                <div class="container">
+                    <div class="section-title">my contact</div>
+                    <div class="wrapper-ctx">
+                        <div class="contact-icons">
+                            <!-- icon -->
+                            <p class="btn-icons"><span class="iconify" data-icon="ic:sharp-location-on" data-inline="false"></span></p>
+                            <div class="contacts-icons-text">
+                                <span>Location</span>
+                                <span>No.17 Gonin-gora, Kaduna</span>
+                            </div>
+                        </div>
+    
+                        <div class="contact-icons">
+                            <!-- icon -->
+                            <p class="btn-icons"><span class="iconify" data-icon="clarity:phone-handset-solid" data-inline="false"></span></p>
+                            <div class="contacts-icons-text">
+                                <span>Phone</span>
+                                <span>09032067404</span>
+                            </div>
+                        </div>
+    
+                        <div class="contact-icons">
+                            <!-- icon -->
+                            <p class="btn-icons"><span class="iconify" data-icon="mdi:email-outline" data-inline="false"></span></p>
+                            <div class="contacts-icons-text">
+                                <span>Email</span>
+                                <span>Pgt2089@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-contact">
+                        <div class="wrapper">
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input type="text" class="input-text" id="name" name="name" placeholder="Name"/>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="email"></label>
+                                <input type="email" class="input-text" id="email" name="email" placeholder="Email"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea class="input-textarea" id="message" name="message" placeholder="Message" rows="8"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">send message</button>
+                    </div>
+                </div>
+            </section>
+            <!-- End of section contact -->
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="navigation-brand" href="#">
+                    Sprout
+                </a>
+
+                <div class="footer-iconLinks">
+                    <span class="iconify" data-icon="typcn:social-facebook-circular" data-inline="false"></span>
+                    <span class="iconify" data-icon="ri:telegram-line" data-inline="false"></span>
+                    <span class="iconify" data-icon="jam:twitter-circle" data-inline="false"></span>
+                    <!-- <span class="iconify" data-icon="fa-brands:whatsapp-square" data-inline="false"></span>
+                    <span class="iconify" data-icon="whh:circleinstagram" data-inline="false"></span> -->
+                </div>
+
+                <p class="footer-text">Sprout &copy; 2020, All right reserves. Designed by Adeniyi</p>
+            </div>
+        </footer>
+    </div>
+    <!-- import iconify icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- local script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
