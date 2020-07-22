@@ -46,7 +46,7 @@ var typeText = {
       typeText.container.innerHTML = "";
       typeText.timer = setTimeout(typeText.draw, typeText.delay);
     }
-  };
+};
   
   window.addEventListener("load", function(){
     typeText.container = document.getElementById(typeText.container);
